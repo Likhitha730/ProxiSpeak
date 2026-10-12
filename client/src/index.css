@@ -1,3 +1,70 @@
+
+.voice-panel {
+  margin-top: 18px;
+  padding: 18px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+}
+
+.voice-panel h2 {
+  margin: 0 0 10px;
+  color: #1d4ed8;
+}
+
+.voice-panel button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.voice-panel button:hover {
+  background: #1d4ed8;
+}
+
+.voice-panel .stop-button {
+  background: #dc2626;
+}
+
+.voice-panel .stop-button:hover {
+  background: #b91c1c;
+}
+
+.voice-panel .help-text {
+  margin-bottom: 0;
+  color: #475569;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.error-message {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+.keyboard-help {
+  margin-top: 14px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.office-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.office-wrap canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+}
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
